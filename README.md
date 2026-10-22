@@ -19,6 +19,9 @@ Connecting a physical host workstation to virtualized server infrastructure whil
 
 ![Network Architecture](images/architecture-diagram.png)
 
+<img width="2600" height="1750" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/19d62565-a74a-4d27-8010-648e82a77410" />
+
+
 ### Topology Breakdown
 * **Physical Workstation (`Ariels-PC` - 192.168.7.16):** The Windows 11 host system running VirtualBox. It connects directly to the Wazuh Manager over the physical LAN via a **Bridged Network Interface (`192.168.7.10`)**, allowing direct event forwarding on port `1514` without NAT translation.
 * **Internal Web Server (`Debian-Web` - 10.0.2.20):** A Debian 12 virtual machine hosting an NGINX web server, isolated inside a VirtualBox **NAT Network (`10.0.2.0/24`)**. It communicates with Wazuh’s secondary interface (`10.0.2.15`).
