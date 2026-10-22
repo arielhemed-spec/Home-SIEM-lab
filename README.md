@@ -17,9 +17,9 @@ The goal of this project was to move beyond theory and build a functioning detec
 
 Connecting a physical host workstation to virtualized server infrastructure while preserving isolation required a **dual-interface (multi-homed)** architecture on the Wazuh VM:
 
-![Network Architecture](images/architecture-diagram.png)
 
-<img width="2600" height="1750" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/e0ca0e0e-20be-4b39-9e5f-72d6e5f062cb" />
+<img width="2700" height="1750" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/c29b3342-4a27-4229-81ce-dbd02c117bcb" />
+
 
 
 
