@@ -19,7 +19,8 @@ Connecting a physical host workstation to virtualized server infrastructure whil
 
 ![Network Architecture](images/architecture-diagram.png)
 
-<img width="2600" height="1750" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/19d62565-a74a-4d27-8010-648e82a77410" />
+<img width="2600" height="1750" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/e0ca0e0e-20be-4b39-9e5f-72d6e5f062cb" />
+
 
 
 ### Topology Breakdown
