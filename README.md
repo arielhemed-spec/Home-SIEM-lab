@@ -59,7 +59,8 @@ Connecting a physical host workstation to virtualized server infrastructure whil
 * **Execution:** Sent an HTTP GET request containing traversal sequences targeting system files (`/..//etc/passwd`).
 * **Mechanism:** NGINX flagged the anomalous request as `400 Bad Request` and committed the transaction to `/var/log/nginx/access.log`. The Wazuh agent actively monitoring this log piped the line to the manager.
 * **Detection:** Triggered Wazuh Rule `31101` (*Web attack: Path traversal attack*, Severity Level 5).
-* 
+ 
+<img width="755" height="291" alt="image" src="https://github.com/user-attachments/assets/8771bd8f-edd4-4dd2-80c8-7b03dd723776" />
 
 <img width="1453" height="529" alt="image" src="https://github.com/user-attachments/assets/3aa8eede-12f8-4b60-b593-46ae6dbcdb02" />
 
